@@ -1,8 +1,8 @@
 import BarChart from "components/BarChart";
-import DataTable from "components/DataTable";
+import DataTable from "components/dataTable";
 import DonoutChart from "components/DonoutChart";
-import Footer from "components/Footer";
-import NavBar from "components/NavBar";
+import Footer from "components/footer";
+import NavBar from "components/navBar";
 
 {/* todo return desse arquivo será exibido no naegador(browse) */}
 function App() {  {/* pode ser function ou constant */}
