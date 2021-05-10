@@ -1,4 +1,4 @@
-import ImgDsDark from 'assets/img/Quality2.png';
+import ImgDsDark from 'assets/img/Quality1.png';
 
 function NavBar() {
     return (
