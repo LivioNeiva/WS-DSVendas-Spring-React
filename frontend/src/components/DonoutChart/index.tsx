@@ -7,7 +7,7 @@ const DonoutChart = () => {
         labels: ['Anakin', 'Barry Allen', 'Kal-El', 'Logan', 'Padmé']
     }
     
-    {/* mostra legenda como verdadeiro */}
+    
     const options = {
         legend: {
             show: true
@@ -30,4 +30,3 @@ const DonoutChart = () => {
 
 export default DonoutChart;
 
-{/*  */}

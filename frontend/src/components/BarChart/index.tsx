@@ -22,11 +22,11 @@ function BarChart() {
         ]
     };
 
-         {/* 
+         /*
          agora temos q retornar toda estrutura jsx correspodente ao grafico de barra
          pos a instalação do apexcharts feita pelo yarn. A estrutura é um component 
          apexcharts
-          */}
+          */
     return ( 
         //estamos incorporando options na definição jsx, fazendo o return do codigo acima
         //o options vai ser incorporado na definição jsx, o options é a const da função acima
@@ -43,4 +43,3 @@ export default BarChart;
 
  
 
-{/*  */}
