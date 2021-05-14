@@ -27,3 +27,7 @@ Implementamos:
 
 COMMIT: Domain model, database seed
 
+Passo 3: Estruturar o projeto em camadas
+Padrão camadas adotado
+
+
