@@ -22,12 +22,28 @@ Passo 2: criar as entidades e o seed do banco
  
 
 Implementamos:
-	application.properties
+	
+    application.properties
 	Seed do banco de dados
 
 COMMIT: Domain model, database seed
 
 Passo 3: Estruturar o projeto em camadas
 Padrão camadas adotado
+
+
+    Criar repositories
+    Criar DTO's
+    Criar service
+    Criar controller
+    COMMIT: Layers
+
+Passo 4: Busca paginada de vendas
+
+    Pageable
+    page, size, sort
+    Evitando interações repetidas ao banco de dados
+    COMMIT: Pagination
+
 
 

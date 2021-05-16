@@ -24,21 +24,22 @@ public class Sale {
 	private Double amount;
 	private LocalDate date;
 	
-	@Autowired
+	
 	@ManyToOne //muito p/ um, a chave estrangeira fica no lado do muitos, nessa caso e sale
-	@JoinColumn(name = "seller_id")
+	@JoinColumn(name = "seller_id") //nome da chave estrangeira
 	private Seller seller;
 	
 	public Sale() {
 		
 	}
 
-	public Sale(long id, Integer visited, Integer deals, Double aumont, LocalDate date) {
+	public Sale(long id, Integer visited, Integer deals, Double aumont, LocalDate date, Seller seller) {
 		this.id = id;
 		this.visited = visited;
 		this.deals = deals;
 		this.amount = aumont;
 		this.date = date;
+		this.seller = seller;
 	}
 
 	public long getId() {
@@ -80,5 +81,15 @@ public class Sale {
 	public void setDate(LocalDate date) {
 		this.date = date;
 	}
+
+	public Seller getSeller() {
+		return seller;
+	}
+
+	public void setSeller(Seller seller) {
+		this.seller = seller;
+	}
+	
+	
 	
 }
