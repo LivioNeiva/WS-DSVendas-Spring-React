@@ -45,5 +45,12 @@ Passo 4: Busca paginada de vendas
     Evitando interações repetidas ao banco de dados
     COMMIT: Pagination
 
+Passo 5: Buscas agrupadas (GROUP BY)
+
+    Total de vendas por vendedor
+    Taxa de sucesso por vendedor
+    COMMIT: Group by search
+
+
 
 
