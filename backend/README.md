@@ -51,6 +51,21 @@ Passo 5: Buscas agrupadas (GROUP BY)
     Taxa de sucesso por vendedor
     COMMIT: Group by search
 
+Passo 6: Validação no Postgres local
+
+    Criar três perfis de projeto: test, dev, prod
+        application-prod.properties
+        application.properties
+        system.properties
+        application-dev.properties
+        
+    Gerar script SQL no perfil dev
+    Testar projeto no banco Postgres local
+    COMMIT: First homolog
+
+
+
+
 
 
 
